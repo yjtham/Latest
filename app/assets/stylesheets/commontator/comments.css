@@ -91,7 +91,10 @@
 }
 
 .comment_timestamp {
-  color: #666;
+  color: #666; 
+  min-height: 1px;
+  margin-left: 69px;
+  margin-right: 100px;
 }
 
 .comment_votes {
@@ -153,9 +156,13 @@
 }
 
 .comment_commontator {
-  /*color: rgb(12, 26, 164); */
+/*color: rgb(12, 26, 164); ~yj */
   color: #000;
   font-size: 13px;
+   min-height: 1px;
+  margin-left: 69px;
+  margin-right: 100px;
+  
  
 }
 

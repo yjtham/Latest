@@ -239,5 +239,10 @@ Commontator.configure do |config|
   # (defaults to the commontable's show url)
   config.commontable_url_proc = lambda { |thread, app_routes|
     app_routes.polymorphic_url(thread.commontable) }
+
+
+
+
+    
 end
 

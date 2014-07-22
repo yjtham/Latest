@@ -1,5 +1,5 @@
 class Status < ActiveRecord::Base
-	##YJ
+	# Added to use gem Commontator
 	acts_as_commontable
 
 

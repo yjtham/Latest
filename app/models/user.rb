@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
 
-  ##YJ
+  # Added to use gem Commontator
   acts_as_commontator
 
   enum role: [:user, :vip, :admin]
